@@ -32,7 +32,9 @@ Las palabras clave utilizadas para la busqueda de infromación son las siguiente
 
 En [1] y [3] se nos muestra un informe acerca de cráteres complejos y de algunos patrones que pudieron observar los autores, y en ambos se tiene el patrón de que para cráteres en la Luna con menor profundidad y mayor diametro presentan morfologías de ejecta normal, lo que quiere decir que el material expulsadoa al mmento de la colisción entre un proyectil y el cuerpo astronómico, se exparció no muy lejos del propio impacto, mientra que para cráteres con mayor profundidad y menir diametro la morfología es más simple y la ejecta suele ser lineal y más distribuida. Esto último apoyado por [2].
 
-Lo importante de esto, es que nos da pauta para proponer nuestra propia hipotesis de lo que podría pasar para el caso de los cráteres de Marte. *Hipotesis:* A menor profundidad la morfología ejecta varia más en los alrededores proximos del cráter, lo cual implica menor número de capas.
+Lo importante de esto, es que nos da pauta para proponer nuestra propia hipotesis de lo que podría pasar para el caso de los cráteres de Marte. 
+
+*Hipotesis:* A menor profundidad la morfología ejecta varia más en los alrededores proximos del cráter, lo cual implica menor número de capas.
 
 En las próximas semanas, al hacer el análisis de los datos veremos si nuestras hipotesis están cerca de la realidad. 
 
