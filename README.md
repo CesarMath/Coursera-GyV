@@ -54,17 +54,7 @@ En los documentos agregados en esta pagina les adjunto el archivo "Mark1.py" que
 En las primeras líneas de código mostramos la frecuencia de las siguientes variables:
 
 ### LONGITUDE
- 108.746    2
- 164.464    3
--27.240     3
- 160.575    2
- 95.617     3
-           ..
--69.003     1
--147.167    1
--108.162    1
- 166.562    1
- 63.528     1
+<img src="/imagenes/Longitud-distribucion.jpg" alt="LONGITUDE" />
 
 
 ### DIAM
