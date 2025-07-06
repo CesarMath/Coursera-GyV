@@ -40,8 +40,8 @@ print(p4)
 #p4 = data["CRATER_NAME"].value_counts(sort=False)
 #print(p4)
 
-ct1 = data.groupby("MORPHOLOGY_EJECTA_1").size()
-print("ESTE ES EL VALOR", ct1)
+#ct1 = data.groupby("MORPHOLOGY_EJECTA_1").size()
+#print("ESTE ES EL VALOR", ct1)
 
 sub1 = data[(data["MORPHOLOGY_EJECTA_1"] != " " )]
 #Sub-data con la condición lógica de que la morfología sea distinta del vacio, es decir
@@ -51,4 +51,4 @@ print(sub1)
 ct2 = sub1.groupby("MORPHOLOGY_EJECTA_1").size()
 #Agrupamos los datos del nuevo data en cuanto a la morfología para determinar
 #cuantos registros tienen cada opción de morfología
-print("ESTE ES EL VALOR", ct2)
+print("ESTA ES LA TABLA DE VALORES AGRUADOS DE", ct2)
