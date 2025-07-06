@@ -33,11 +33,22 @@ print(c3)
 p3 = data["NUMBER_LAYERS"].value_counts(sort=False,normalize=True)
 print(p3)
 
+c4 = data["MORPHOLOGY_EJECTA_1"].value_counts(sort=False)
+print(c4)
+p4 = data["MORPHOLOGY_EJECTA_1"].value_counts(sort=False,normalize=True)
+print(p4)
 #p4 = data["CRATER_NAME"].value_counts(sort=False)
 #print(p4)
 
-#ct1 = data.groupby("DIAM").__len__
-#print("ESTE ES EL VALOR", ct1)
+ct1 = data.groupby("MORPHOLOGY_EJECTA_1").size()
+print("ESTE ES EL VALOR", ct1)
 
-sub1 = data[(data["NUMBER_LAYERS"] <= 1)]
+sub1 = data[(data["MORPHOLOGY_EJECTA_1"] != " " )]
+#Sub-data con la condición lógica de que la morfología sea distinta del vacio, es decir
+#que tenga al menos algún reistro de morfología
 print(sub1)
+
+ct2 = sub1.groupby("MORPHOLOGY_EJECTA_1").size()
+#Agrupamos los datos del nuevo data en cuanto a la morfología para determinar
+#cuantos registros tienen cada opción de morfología
+print("ESTE ES EL VALOR", ct2)

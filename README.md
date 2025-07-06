@@ -23,7 +23,7 @@ Y en particular el tema específico que me interesa es sobre algunas medidas de 
 
 Por lo que adjunto en los documentos de este repositorio el arcihivo *DATA BOOK-propio* con las variables a ultilizar para mi investigación personal.
 
-Y es que la pregunta inicial que tengo por responder es *¿Qué medidas de diametro y profundidad tienen los crán morfología más variada?, ¿Esa morfoloía implica mayor o menor numero de capas?* y para futuras investigaciones podemos preguntarnos si pasa algo similar en cráteres más recientes o en cráteres de otros planetas. 
+Y es que la pregunta inicial que tengo por responder es *¿Qué medidas de diametro y profundidad tienen la morfología más variada?, ¿Esa morfoloía implica mayor o menor numero de capas?* y para futuras investigaciones podemos preguntarnos si pasa algo similar en cráteres más recientes o en cráteres de otros planetas. 
 
 Para tener una hipótesis inicial de las respuestas a estas preguntas hicimos una revisión bibliográfica rápida.
 
