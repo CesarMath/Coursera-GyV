@@ -58,75 +58,27 @@ En las primeras líneas de código mostramos la frecuencia de las siguientes var
 
 
 ### DIAM
-DIAM
-82.10    1
-82.02    1
-79.63    1
-74.81    1
-73.53    2
-        ..
-31.18    1
-30.94    2
-30.56    1
-29.74    1
-28.42    1
+<img src="/imagenes/diametro-distribucion.jpg" alt="DIAM" />
+
 
 
 ### NUMBER_LAYERS
-0    364612
-3       739
-2      3435
-1     15467
-4        85
-5         5
+<img src="/imagenes/capas-distribucion.jpg" alt="NUMBER_LAYERS" />
 
 ### MORPHOLOGY_EJECTA_1
-                      339718
-Rd/MLERS                 199
-Rd                     24892
-Rd/DLEPC/DLERS            33
-SLERS                   4828
-                       ...
-MLEPC/MLERC/MSLEPS         1
-DLERCPd/DLERSPd            1
-MLERSRd                    1
-DLERC/Rd/SLERS             1
-Rd/SLEPCRd                 1
+<img src="/imagenes/morfologia-distribucion.jpg" alt="MORPHOLOGY_EJECTA_1" />
+
 
 Después, dada que nuestra pregunta de interés se basa en la variedad de Morfología, creamos un nuevo sub-data basado en el que quitamos aquellos registros que no tienen ninguna forma de Morfología, haciendo un nuevo documento de datos con menos registros pero únicamente con los necesarios.
 
 ### Nuevo Data, con registros unicamente con datos de morfología
-CRATER_ID CRATER_NAME  LONGITUDE   DIAM MORPHOLOGY_EJECTA_1  NUMBER_LAYERS
-1       01-000001     Korolev    164.464  82.02            Rd/MLERS              3
-8       01-000008                 13.829  58.40                  Rd              0
-12      01-000012       Dokka   -145.681  51.08                  Rd              0
-20      01-000020                177.982  45.71      Rd/DLEPC/DLERS              2
-25      01-000025                 -7.939  39.51               SLERS              1
-...           ...         ...        ...    ...                 ...            ...
-378373  30-007721               -133.362   1.53                  Rd              0
-378404  30-007752               -125.126   1.53                  Rd              0
-378457  30-007805               -121.640   1.52                  Rd              0
-378520  30-007868               -115.428   1.51                  Rd              0
-378532  30-007880                122.205   1.51                  Rd              0
-
-[44625 rows x 6 columns]
+<img src="/imagenes/subdata-morfologia.jpg" alt="LONGITUDE" />
 
 
 Al final, en el código, hicimos un análisis agrupando los datos de morfología para determinar la cantidad de registros por cada opción de morfología del que se tiene registro.
 
 ### VALORES AGRUADOS DE MORPHOLOGY_EJECTA_1
-DLEPC             232
-DLEPC/DLEPCPd       4
-DLEPC/DLEPS       145
-DLEPC/DLEPS/Rd      2
-DLEPC/DLEPSPd       3
-                 ...
-SLERS/Rd          281
-SLERS/Rd/SLERS      1
-SLERSPd            16
-SLERSRd             4
-SLErS               1
-Length: 155, dtype: int64
+<img src="/imagenes/morfologia-valores-agrupados.jpg" alt="LONGITUDE" />
 
 ### Obervaciones
 - Por los datos obtenidos, podemos decir que la morfología con mayor registro es "DLEPC" y "SLERS/Rd", por lo que son nuestras candidatas a tener una única capa, ya que por el anális de frecuencias la cantidad de registros con unaúnica capa es de 15467 registros.
