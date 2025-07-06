@@ -32,3 +32,12 @@ print(c3)
 
 p3 = data["NUMBER_LAYERS"].value_counts(sort=False,normalize=True)
 print(p3)
+
+#p4 = data["CRATER_NAME"].value_counts(sort=False)
+#print(p4)
+
+#ct1 = data.groupby("DIAM").__len__
+#print("ESTE ES EL VALOR", ct1)
+
+sub1 = data[(data["NUMBER_LAYERS"] <= 1)]
+print(sub1)
