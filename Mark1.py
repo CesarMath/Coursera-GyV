@@ -51,4 +51,4 @@ print(sub1)
 ct2 = sub1.groupby("MORPHOLOGY_EJECTA_1").size()
 #Agrupamos los datos del nuevo data en cuanto a la morfología para determinar
 #cuantos registros tienen cada opción de morfología
-print("ESTA ES LA TABLA DE VALORES AGRUADOS DE", ct2)
+print("ESTA ES LA TABLA DE VALORES AGRUPADOS DE", ct2)
